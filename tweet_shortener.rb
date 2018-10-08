@@ -14,7 +14,7 @@ end
 def word_substituter (string)
   arString = string.split(" ")
   arKeys = dictionary.keys
-  for x in 0...arString.length
+  for x in 0..arString.length
   currentWord = arString[x]
   for y in 0...arKeys.length
   if arKeys[y] == currentWord.downcase
